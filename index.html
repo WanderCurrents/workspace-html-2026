@@ -201,8 +201,62 @@
 
 
 		<div class="practice">
+			<h2>September 9 Practice</h2>
+		
+			<!-- Required in-class exercise -->
+			<form action="fake.php">
+				<p>Please select your favorite genre:</p>
+				<label><input type="radio" name="genre" value="Rock">Rock</label>
+				<label><input type="radio" name="genre" value="Pop">Pop</label>
+				<label><input type="radio" name="genre" value="Jazz">Jazz</label>
 
+				<br>Enter comment
+				<textarea name="comment" id="" cols="10" rows="20">
+					Enter your comment --- better to use a placeholder here though
 
+				</textarea>
+
+				<p>
+					Select your favorite color
+					<select name="favcolor" size="3" multiple>
+						<option value="r">Red</option>
+						<option value="b">Blue</option>
+						<option value="y">Yellow</option>
+					</select>
+				</p>
+
+				<p>
+					<button>
+						<img src="img/minus.png" alt="minus">Minus
+					</button>
+
+					<!-- Example of hidden -->
+					<input type="hidden" name="Default" value="11111">
+					<input type="button" name="nice" value="background">
+				</p>
+				
+				<input type="text" id="fn" name="fn" value="name">
+				<label for="fn">Enter your name</label>
+
+				<br><br>
+				<p>HTML5 New Features</p>
+				<p>
+					<input type="color" name="sColor" autofocus>
+					<input type="date" name="checkin">
+				</p>
+				<p>
+					*Email: (required)
+					<input type="email" name="useremail" placeholder="xxxx@usca.edu" required>
+				</p>
+				<p>
+					*Phone number:
+					<input type="tel" name="phone" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}" required>
+				</p>
+
+				<br></p>
+				<input type="submit" value="submit">
+			</form>
+		
 		</div>
 
 		<div class="practice">
