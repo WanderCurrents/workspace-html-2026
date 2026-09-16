@@ -260,6 +260,114 @@
 		</div>
 
 		<div class="practice">
+			<h2>September 14 Practice</h2>
+
+			<form action="fake.php">
+				<label for="rating">Enter the rating</label>
+				<input type="number" id="rating"name="rating" min="1" max="5">
+				<br>
+				<label for="number">Pick a number</label>
+				1<input type="range" name="number" id="number" min="1" max="5">5
+			</form>
+
+			<p>
+				<details>
+					<summary>Assignment List</summary>
+					<ul>
+						<li>Assignment 1</li>
+						<li>Assignment 2</li>
+						<li>Assignment 3</li>
+					</ul>
+				</details>
+			</p>
+
+			<p>
+				<button popovertarget="mypopover">Toggle the popover</button>
+				<div id="mypopover" popover>
+					This is the popover content.
+				</div>
+			</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7025.293128407297!2d-81.03171342454688!3d33.9939857479085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bb282cb2a61b%3A0x78bd73542178f54e!2sUniversity%20of%20South%20Carolina!5e1!3m2!1sen!2sus!4v1789404565221!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/IfIx1aw6Toc?si=fyqePHJWjsfKR5dt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+			
+			<iframe src="HTMLelements.html" frameborder="10"></iframe>
+
+			<video src="video/puppy.mp4" poster="img/puppy.jpg" loop controls width="600" height="450"></video>
+
+			<!-- Required in-class exercise -->
+			<br>
+			<form action="fake2.php">
+				<div>
+					<input type="text" name="first_name" id="first_name" required placeholder="First name">
+					<input type="text" name="last_name" id="last_name" required placeholder="Last name">
+					<br>
+					<input type="email" name="email" id="email" required placeholder="Email">
+					<input type="tel" name="phone" id="phone" required placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}">
+					<input type="password" name="password" id="password" required placeholder="New Password">
+				</div>
+				<div>
+					<label for="Birthday">Birthday</label>
+					<select name="month" id="month">
+						<option value="1">January</option>
+						<option value="2">February</option>
+						<option value="3">March</option>
+						<option value="4">April</option>
+						<option value="5">May</option>
+						<option value="6">June</option>
+						<option value="7">July</option>
+						<option value="8">August</option>
+						<option value="9">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+					<select name="day" id="day">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+				</div>
+				<div>
+					<p>Gender</p>
+					<input type="radio" name="gender" id="male" value="male">
+					<label for="male">Male</label>
+					<input type="radio" name="gender" id="female" value="female">
+					<label for="female">Female</label>
+					<input type="radio" name="gender" id="other" value="other">
+					<label for="other">Other</label>
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+
 
 
 		</div>
